@@ -1,33 +1,38 @@
 .sobre {
   display: flex;
+  gap: 20px;
   justify-content: start;
   justify-items: start;
   align-items: start;
   flex-wrap: wrap;
-  gap: 20px;
-  margin-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+  border-top: 2px solid #122ab2;
+  border-bottom: 2px solid #122ab2;
 }
 
 .sobre-conteudo {
-  margin-right: 40px;
+  flex: 2 1 300px;
 }
 
-.sobre img {
-  flex: 0 1 auto;
+.sobre-img {
+  flex: 1 1 160px;
 }
 
 .sobre h1 {
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 
 .sobre p {
   max-width: 45ch;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
   color: #7c7c7c;
 }
 
 .sobre p + p {
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 @media (max-width: 1024px) {

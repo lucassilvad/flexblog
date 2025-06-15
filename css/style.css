@@ -3,6 +3,10 @@
 @import "./global.css";
 @import "./header.css";
 
+/* Utilidades */
+
+@import "./componentes.css";
+
 /* Introducao */
 
 @import "./intro.css";
@@ -18,3 +22,7 @@
 /* Preços */
 
 @import "./precos.css";
+
+/* Qualidade */
+
+@import "./qualidade.css";

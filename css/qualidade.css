@@ -1,0 +1,33 @@
+.qualidade {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.qualidade-item {
+  flex: 1 1 250px;
+}
+
+.qualidade-item h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: #a4a4a4;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.qualidade-item h2::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 20px;
+  background: blue;
+}
+
+.qualidade-item p {
+  color: #7c7c7c;
+  font-size: 1.125rem;
+}

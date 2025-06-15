@@ -14,31 +14,30 @@
 
 .produtos ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: end;
-  flex-wrap: wrap;
   gap: 20px;
 }
 
 .produtos h2 {
   font-size: 2rem;
   font-weight: 700;
-  padding: 40px 20px;
+  padding: 60px 20px;
   color: #a4a4a4;
   background: #f7f7f7;
 }
 
 .produtos li {
-  max-width: 320px;
-  border-top: 8px solid black;
+  flex: 1 1 175px;
 }
 
 .produtos li:first-child {
-  border-color: #ae81ff;
+  border-top: 8px solid #ae81ff;
 }
 .produtos li:nth-child(2) {
-  border-color: #f9265e;
+  border-top: 8px solid #f9265e;
 }
 .produtos li:last-child {
-  border-color: #66d9eb;
+  border-top: 8px solid #66d9eb;
 }

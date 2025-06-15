@@ -1,0 +1,23 @@
+.container {
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.fonte-destaque {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .fonte-destaque {
+    font-size: 2.75rem;
+  }
+}
