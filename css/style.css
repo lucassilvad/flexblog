@@ -1,0 +1,20 @@
+/* Global */
+
+@import "./global.css";
+@import "./header.css";
+
+/* Introducao */
+
+@import "./intro.css";
+
+/* Sobre */
+
+@import "./sobre.css";
+
+/* Produtos */
+
+@import "./produtos.css";
+
+/* Preços */
+
+@import "./precos.css";

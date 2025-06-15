@@ -1,0 +1,44 @@
+.planos-bg {
+  background: #f7f7f7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.produtos {
+  margin-bottom: 80px;
+}
+
+.produtos h1 {
+  margin-bottom: 40px;
+}
+
+.produtos ul {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.produtos h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 40px 20px;
+  color: #a4a4a4;
+  background: #f7f7f7;
+}
+
+.produtos li {
+  max-width: 320px;
+  border-top: 8px solid black;
+}
+
+.produtos li:first-child {
+  border-color: #ae81ff;
+}
+.produtos li:nth-child(2) {
+  border-color: #f9265e;
+}
+.produtos li:last-child {
+  border-color: #66d9eb;
+}
