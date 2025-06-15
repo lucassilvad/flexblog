@@ -26,3 +26,11 @@
 /* Qualidade */
 
 @import "./qualidade.css";
+
+/* NewsLetter */
+
+@import "./newsletter.css";
+
+/* Footer */
+
+@import "./footer.css";
